@@ -1,0 +1,23 @@
+{
+  "name": "nuvio-release-time-addon",
+  "version": "0.1.0",
+  "description": "A NuvioTV metadata addon that preserves original movie and TV episode release dates, airtimes, and time zones without unintended local time-zone shifts.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test test/*.test.js"
+  },
+  "keywords": [
+    "nuvio",
+    "nuviotv",
+    "stremio-addon",
+    "metadata",
+    "timezone",
+    "release-time"
+  ],
+  "author": "nathanntongai",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
