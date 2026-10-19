@@ -1,0 +1,42 @@
+{
+  "id": "org.nathanntongai.nuvio.releasetime",
+  "version": "0.1.0",
+  "name": "Nuvio Accurate Release Times",
+  "description": "Preserves original broadcaster/distributor release dates, times, and time zones without unintended UTC+3 day shifts.",
+  "resources": [
+    "catalog",
+    {
+      "name": "meta",
+      "types": [
+        "series",
+        "movie"
+      ],
+      "idPrefixes": [
+        "rt:",
+        "tvmaze:",
+        "tt"
+      ]
+    }
+  ],
+  "types": [
+    "series",
+    "movie"
+  ],
+  "idPrefixes": [
+    "rt:",
+    "tvmaze:",
+    "tt"
+  ],
+  "catalogs": [
+    {
+      "type": "series",
+      "id": "rt_schedule_series",
+      "name": "Accurate Release Schedule (Series)"
+    },
+    {
+      "type": "movie",
+      "id": "rt_schedule_movies",
+      "name": "Accurate Release Schedule (Movies)"
+    }
+  ]
+}
